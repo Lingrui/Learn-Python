@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 
 #make a dictionary 
 words = {}

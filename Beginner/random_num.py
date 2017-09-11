@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 ##random number between 0 and 1 
 from random import * 
 print random()

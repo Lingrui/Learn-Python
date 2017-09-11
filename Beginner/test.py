@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/python
 class Employee:
 	def __init__(self,name,salary):
 		self.salary = salary

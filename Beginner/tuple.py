@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 #define an empty tuple
 tuple = ()
 #a comma is required for a tuple with one item

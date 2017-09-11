@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 ###class######
 ## The __init__()  method is called the constructor and is always called when creating an object.
 class User:

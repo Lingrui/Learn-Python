@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 
 x = 3 
 y = "text"

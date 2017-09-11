@@ -1,4 +1,4 @@
-#!/user/bin/python 
+#!/usr/bin/python 
 
 items = ["Abby","Brenda","Cindy","Diddy"]
 
