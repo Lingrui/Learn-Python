@@ -53,3 +53,14 @@ redcar = change()
 redcar.drive()
 redcar.setMaxSpeed(320)
 redcar.drive()
+
+###description 
+print '#####Descriptions#######'
+print 'public methods:'
+print '		Accessible from anywhere'
+print 'private methods:'
+print '		Accessible only in their own class, starts with two underscores'
+print 'public variables'
+print '		Accessible from anywhere'
+print 'private variables'
+print '		Accessible only in their own class or by a method is defined, starts with two underscores'
