@@ -43,3 +43,12 @@ d.setdefault('a',[]).append(2)
 d.setdefault('b',[]).append(4)
 print '####set default###'
 print d
+
+#######example####
+d = defaultdict(list)
+for key, value in pairs:
+	d[key].append(value)
+
+
+
+
