@@ -20,4 +20,15 @@ print('sort by multiply keys: lname and fname')
 rows_by_lfname = sorted(rows,key=itemgetter('lname','fname'))
 print(rows_by_lfname)
 
+###itemgetter sometimes replaced by lambda expression 
+print('##lambda expresion###')
+rows_by_fname = sorted(rows,key=lambda r:r['fname'])
+print(rows_by_fname) 
+rows_by_lfname = sorted(rows,key=lambda r:(r['lname'],r['fname']))
+
+###min and max 
+print("max")
+print(min(rows,key=itemgetter('uid')))
+print("min")
+print(max(rows,key=itemgetter('uid')))
 
