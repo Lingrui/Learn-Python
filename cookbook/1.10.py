@@ -20,4 +20,6 @@ def dedupe_un(items,key=None):
 			seen.add(val)
 
 a = [{'x':1,'y':2},{'x':1,'y':3},{'x':1,'y':2},{'x':2,'y':4}]
-list(dedupe_un(a,key=lambda d:(d['x'],d['y'])))
+print list(dedupe_un(a,key=lambda d:(d['x'],d['y'])))
+
+print list(dedupe_un(a,key=lambda d:d['x']))
