@@ -33,3 +33,25 @@ print (clip_neg)
 
 clip_pos = [n if n < 0 else 0 for n in mylist]
 print (clip_pos)
+
+##itertools.compress() takes an iterable and an caaompanying Boolean selector sequence as input 
+addresses = [
+	'5412 N CLARK',
+	'5148 N CLARK',
+	'5800 E 58TH', 
+	'2122 N CLARK',
+	'5645 N RAVENSWOOD'
+	'1060 W ADDISON',
+	'4801 N BROADWAY'
+	'1039 W GRANVILLE',
+]
+
+counts = [0,3,10,4,1,7,6,1]
+
+from itertools import compress 
+more5 = [n > 5 for n in counts]
+print(more5)
+x = list(compress(addresses,more5))
+print (x)
+
+#filter(), compress() normally returns an iterator, usually need to use list() to turn the result into a list 

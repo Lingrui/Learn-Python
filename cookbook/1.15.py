@@ -31,3 +31,27 @@ for row in rows:
 
 for r in rows_by_date['07/01/2012']:
 	print (r) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
